@@ -1,0 +1,145 @@
+<DBLMetadata version="2.2.1" id="c00eb3310759cb42" revision="0">
+  <identification>
+    <name>Reina Valera 1909</name>
+    <nameLocal>Reina Valera 1909</nameLocal>
+    <description>Español: Reina Valera 1909</description>
+    <abbreviation>RV09</abbreviation>
+    <abbreviationLocal>RV09</abbreviationLocal>
+    <scope>Old Testament + Deuterocanon</scope>
+    <dateCompleted>1909-10-01</dateCompleted>
+    <bundleProducer>Publishing Assistant/6.1.100.26</bundleProducer>
+  </identification>
+  <type>
+    <medium>print</medium>
+    <isConfidential>false</isConfidential>
+    <hasCharacters>true</hasCharacters>
+    <isTranslation>false</isTranslation>
+    <isExpression>true</isExpression>
+    <projectType>Standard</projectType>
+  </type>
+  <relationships>
+    <relation id="592420522e16049f" revision="7" type="text" relationType="source" />
+  </relationships>
+  <agencies>
+    <rightsHolder>
+      <abbr>UBS</abbr>
+      <url>http://www.unitedbiblesocieties.org/</url>
+      <nameLocal>United Bible Societies</nameLocal>
+      <uid>545d2cb007eaee5131ab123a</uid>
+      <name>United Bible Societies</name>
+    </rightsHolder>
+    <rightsAdmin>
+      <uid>13036b334cf0aa987db4a3b2</uid>
+      <name>Americas Publishing Committee</name>
+    </rightsAdmin>
+    <contributor>
+      <content>true</content>
+      <publication>true</publication>
+      <finance>true</finance>
+      <qa>true</qa>
+      <uid>545d2cb007eaee5131ab123a</uid>
+      <name>United Bible Societies</name>
+    </contributor>
+    <contributor>
+      <content>false</content>
+      <management>true</management>
+      <uid>13036b334cf0aa987db4a3b2</uid>
+      <name>Americas Publishing Committee</name>
+    </contributor>
+  </agencies>
+  <language>
+    <iso>spa</iso>
+    <name>Spanish</name>
+    <nameLocal>Español</nameLocal>
+    <script>Latin</script>
+    <scriptCode>Latn</scriptCode>
+    <scriptDirection>LTR</scriptDirection>
+    <ldml>es</ldml>
+    <rod>Español</rod>
+    <numerals>Arabic</numerals>
+  </language>
+  <countries>
+    <country>
+      <iso />
+      <name />
+    </country>
+  </countries>
+  <format>
+    <pod>true</pod>
+    <width>155mm</width>
+    <height>230mm</height>
+    <scale>100%</scale>
+    <orientation>portrait</orientation>
+    <color>CMYK</color>
+    <pageCount>22</pageCount>
+    <edgeSpace>
+      <top>5mm</top>
+      <bottom>9mm</bottom>
+      <inside>14mm</inside>
+      <outside>10mm</outside>
+    </edgeSpace>
+    <fonts>
+      <font type="Other">Myriad Pro CondensedCondensed</font>
+      <font type="Other">Myriad Pro RegularRegular</font>
+      <font type="Other">Myriad Pro BoldBold</font>
+      <font type="Other">Myriad Pro ItalicItalic</font>
+      <font type="Other">Minion Pro RegularRegular</font>
+      <font type="OpenType">Segoe UI Symbol RegularRegular</font>
+    </fonts>
+  </format>
+  <names />
+  <manifest>
+    <resource checksum="9e1996c1f2ec1e424ef7e6cb69f511aa" mimeType="application/pdf" size="2345365" uri="release/Inside.pdf">
+      <atom id="r1a1" checksum="9e1996c1f2ec1e424ef7e6cb69f511aa" size="2345365" />
+    </resource>
+    <resource checksum="d84abc3db553c93d4a408036d7e2c51f" mimeType="application/pdf" size="101722" uri="release/Cover.pdf">
+      <atom id="r2a1" checksum="d84abc3db553c93d4a408036d7e2c51f" size="101722" />
+    </resource>
+    <resource checksum="31d2f724cd6bb1b2036bb9b1c40e7393" mimeType="image/jpeg" size="13378" uri="release/FrontCover.jpg">
+      <atom id="r3a1" checksum="31d2f724cd6bb1b2036bb9b1c40e7393" size="13378" />
+    </resource>
+    <resource checksum="9e5ad3b98621b5b00d22f1cd0cd129be" mimeType="application/zip" size="4313530" uri="source/VRV09_DBLUpload_Source.zip">
+      <atom id="r4a1" checksum="9e5ad3b98621b5b00d22f1cd0cd129be" size="4313530" />
+    </resource>
+  </manifest>
+  <source>
+    <canonicalContent>
+      <book code="MAT" />
+    </canonicalContent>
+    <structure>
+      <content src="source/VRV09_DBLUpload_Source.zip" role="sourceZip" />
+    </structure>
+  </source>
+  <publications>
+    <publication id="p0">
+      <name>Print bundle</name>
+      <canonicalContent>
+        <book code="MAT" />
+      </canonicalContent>
+      <structure>
+        <content src="release/Inside.pdf" />
+        <content src="release/Cover.pdf" />
+      </structure>
+    </publication>
+  </publications>
+  <copyright>
+    <fullStatement>
+      <statementContent type="xhtml">
+        <p>Reina-Valera 1909 - Dominio público.</p>
+        <p>Fue realizada por Sociedades Bíblicas Unidas y publicada por primera vez en 1909.</p>
+      </statementContent>
+    </fullStatement>
+  </copyright>
+  <promotion>
+    <promoVersionInfo contentType="xhtml">
+      <p>Reina-Valera 1909 - Dominio público.</p>
+      <p>Fue realizada por Sociedades Bíblicas Unidas y publicada por primera vez en 1909.</p>
+    </promoVersionInfo>
+  </promotion>
+  <archiveStatus>
+    <archivistName>tortiz@biblesocieties.org</archivistName>
+    <dateArchived>2020-10-29T14:39:31.8968499+00:00</dateArchived>
+    <dateUpdated>2020-10-29T14:39:31.8968499+00:00</dateUpdated>
+    <comments>Test</comments>
+  </archiveStatus>
+</DBLMetadata>

@@ -8,8 +8,7 @@
       "userName": "Bev Cope"
     },
     "defaultLanguage": "en",
-    "dateCreated": "2018-12-08T12:36:12.329486+00:00",
-    "comments": ["Looking for FrontCover.JPG"]
+    "dateCreated": "2020-10-29T14:39:31.8968499+00:00"
   },
   "idAuthorities": {
     "dbl": {
@@ -22,26 +21,27 @@
   "identification": {
     "systemId": {
       "dbl": {
-        "id": "7f3540fe4b0576d7",
-        "revision": "1"
+        "id": "c00eb3310759cb42",
+        "revision": "0"
       }
     },
     "idAuthority": "dbl",
     "name": {
-      "en": "DBL Test Version with DC Local"
+      "en": "Reina Valera 1909"
     },
     "description": {
-      "en": "English: DBL Test Version with DC Local New Testament"
+      "en": "Español: Reina Valera 1909"
     },
     "abbreviation": {
-      "en": "DBLTD"
+      "en": "RV09"
     }
   },
   "languages": [
     {
-      "tag": "en",
+      "tag": "spa",
       "name": {
-        "en": "English"
+        "en": "Spanish",
+        "es": "Español"
       }
     }
   ],
@@ -52,117 +52,97 @@
         "name": "typesetScripture",
         "contentType": "pdf",
         "pod": true,
-        "pageCount": 193,
-        "height": "210mm",
-        "width": "140mm",
+        "pageCount": 22,
+        "height": "230mm",
+        "width": "155mm",
         "scale": "100%",
-        "colorSpace": "cmyk",
+        "colorSpace": "CMYK",
         "edgeSpace": {
           "top": "5mm",
           "bottom": "9mm",
-          "inside": "13mm",
-          "outside": "9mm"
+          "inside": "14mm",
+          "outside": "10mm"
         },
         "fonts": [
-          ["Times New Roman Regular", "openType"],
-          ["Times New Roman BoldBold", "openType"],
-          ["Times New Roman ItalicItalic", "openType"],
-          ["Segoe UI Symbol Regular", "openType"]
+          ["Myriad Pro CondensedCondensed", "Other"],
+          ["Myriad Pro RegularRegular", "Other"],
+          ["Myriad Pro BoldBold", "Other"],
+          ["Myriad Pro ItalicItalic", "Other"],
+          ["Minion Pro RegularRegular", "Other"],
+          ["Segoe UI Symbol RegularRegular", "OpenType"]
         ]
       },
-      "canonType": ["ot", "nt"],
+      "canonType": ["nt"],
       "canonSpec": {
-        "ot": {
-          "name": "western"
-        },
         "nt": {
           "name": "western"
         }
       },
       "currentScope": {
-        "JHN": []
+        "MAT": []
       }
     }
   },
   "confidentiality": {
     "metadata": "unrestricted",
-    "ingredients": "restricted"
+    "ingredients": "unrestricted"
   },
   "agencies": [
     {
-      "id": "dbl::54650cfa5117ad690fb05fb6",
-      "roles": ["rightsHolder"],
-      "url": "http://thedigitalbiblelibrary.org",
+      "id": "dbl::545d2cb007eaee5131ab123a",
+      "roles": ["rightsHolder", "content", "publication", "finance", "qa"],
+      "url": "http://www.unitedbiblesocieties.org/",
       "name": {
-        "en": "DBL Testing"
+        "en": "United Bible Societies"
       },
       "abbr": {
-        "en": "TEST"
+        "en": "UBS"
       }
     },
     {
-      "id": "dbl::545d2cb0c1fbcec540df3e8d",
-      "roles": ["rightsHolder"],
-      "url": "http://www.dblipc.org",
+      "id": "dbl::13036b334cf0aa987db4a3b2",
+      "roles": ["rightAdmin", "management"],
       "name": {
-        "en": "Example Intellectual Property Contributor"
-      },
-      "abbr": {
-        "en": "EIPC"
-      }
-    },
-    {
-      "id": "dbl::54650cd05117ad67b3826e99",
-      "roles": ["content", "publication", "management", "qa"],
-      "name": {
-        "en": "American Bible Society"
-      }
-    }
-  ],
-  "targetAreas": [
-    {
-      "code": "US",
-      "name": {
-        "en": "United States"
+        "en": "Americas Publishing Committee"
       }
     }
   ],
   "ingredients": {
-    "release/Inside.pdf": {
+    "ingredients/release/Cover.pdf": {
       "checksum": {
-        "md5": "ea6cf3aaab5e87d4844a839f55712a2b"
+        "md5": "d84abc3db553c93d4a408036d7e2c51f"
       },
       "mimeType": "application/pdf",
-      "size": 21742731,
-      "role": "body"
-    },
-    "release/Cover.pdf": {
-      "checksum": {
-        "md5": "4f885b5395c57b623982fe1db37efbb1"
-      },
-      "mimeType": "application/pdf",
-      "size": 69141,
+      "size": 101722,
       "role": "cover"
     },
-    "release/FrontCover.jpg": {
+    "ingredients/release/FrontCover.jpg": {
       "checksum": {
-        "md5": "92b271f5d83ad1cc574276dd1d898854"
+        "md5": "31d2f724cd6bb1b2036bb9b1c40e7393"
       },
       "mimeType": "image/jpeg",
-      "size": 15323,
+      "size": 13378,
       "role": "cover"
     },
-    "source/zzzPADBL_2018POD_Source.zip": {
+    "ingredients/release/Inside.pdf": {
       "checksum": {
-        "md5": "c7b53b012f49a06dc9c32a17cb5b77be"
+        "md5": "9e1996c1f2ec1e424ef7e6cb69f511aa"
+      },
+      "mimeType": "application/pdf",
+      "size": 2345365,
+      "role": "body"
+    },
+    "ingredients/source/VRV09_DBLUpload_Source.zip": {
+      "checksum": {
+        "md5": "9e5ad3b98621b5b00d22f1cd0cd129be"
       },
       "mimeType": "application/zip",
-      "size": 46147024
+      "size": 4313530
     }
   },
   "copyright": {
     "fullStatementRich": {
-      "en": "<p>Good News Translation (Today’s English Version, Second Edition) © 1992 American Bible Society. All rights reserved.</p>"
+      "en": "<p>Reina-Valera 1909 - Dominio público.</p> <p>Fue realizada por Sociedades Bíblicas Unidas y publicada por primera vez en 1909.</p>"
     }
   }
 }
