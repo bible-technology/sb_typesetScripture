@@ -101,7 +101,7 @@
     },
     {
       "id": "dbl::13036b334cf0aa987db4a3b2",
-      "roles": ["rightAdmin", "management"],
+      "roles": ["rightsAdmin", "management"],
       "name": {
         "en": "Americas Publishing Committee"
       }
