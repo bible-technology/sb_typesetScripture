@@ -64,12 +64,12 @@
           "outside": "10mm"
         },
         "fonts": [
-          ["Myriad Pro CondensedCondensed", "Other"],
-          ["Myriad Pro RegularRegular", "Other"],
-          ["Myriad Pro BoldBold", "Other"],
-          ["Myriad Pro ItalicItalic", "Other"],
-          ["Minion Pro RegularRegular", "Other"],
-          ["Segoe UI Symbol RegularRegular", "OpenType"]
+          "Myriad Pro CondensedCondensed",
+          "Myriad Pro RegularRegular",
+          "Myriad Pro BoldBold",
+          "Myriad Pro ItalicItalic",
+          "Minion Pro RegularRegular",
+          "Segoe UI Symbol RegularRegular"
         ]
       },
       "canonType": ["nt"],
