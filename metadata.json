@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.3.0-alpha",
+    "version": "0.3.0",
     "category": "source",
     "generator": {
       "softwareName": "DBLImport",
@@ -19,13 +19,14 @@
     }
   },
   "identification": {
-    "systemId": {
+    "primary": {
       "dbl": {
-        "id": "c00eb3310759cb42",
-        "revision": "0"
+        "c00eb3310759cb42": {
+          "revision": "0",
+          "timestamp": "2020-10-29T14:39:31.8968499+00:00"
+        }
       }
     },
-    "idAuthority": "dbl",
     "name": {
       "en": "Reina Valera 1909"
     },
@@ -83,10 +84,7 @@
       }
     }
   },
-  "confidentiality": {
-    "metadata": "unrestricted",
-    "ingredients": "unrestricted"
-  },
+  "confidential": false,
   "agencies": [
     {
       "id": "dbl::545d2cb007eaee5131ab123a",
