@@ -133,8 +133,10 @@
     }
   },
   "copyright": {
-    "fullStatementRich": {
-      "en": "<p>Reina-Valera 1909 - Dominio público.</p> <p>Fue realizada por Sociedades Bíblicas Unidas y publicada por primera vez en 1909.</p>"
-    }
+    "shortStatements": [{
+      "statement": "<p>Reina-Valera 1909 - Dominio público.</p> <p>Fue realizada por Sociedades Bíblicas Unidas y publicada por primera vez en 1909.</p>",
+      "mimetype": "text/html",
+      "lang": "es"
+    }]
   }
 }
