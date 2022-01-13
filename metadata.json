@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "category": "source",
     "generator": {
       "softwareName": "DBLImport",
@@ -73,12 +73,6 @@
           "Segoe UI Symbol RegularRegular"
         ]
       },
-      "canonType": ["nt"],
-      "canonSpec": {
-        "nt": {
-          "name": "western"
-        }
-      },
       "currentScope": {
         "MAT": []
       }
@@ -139,8 +133,10 @@
     }
   },
   "copyright": {
-    "fullStatementRich": {
-      "en": "<p>Reina-Valera 1909 - Dominio público.</p> <p>Fue realizada por Sociedades Bíblicas Unidas y publicada por primera vez en 1909.</p>"
-    }
+    "shortStatements": [{
+      "statement": "<p>Reina-Valera 1909 - Dominio público.</p> <p>Fue realizada por Sociedades Bíblicas Unidas y publicada por primera vez en 1909.</p>",
+      "mimetype": "text/html",
+      "lang": "es"
+    }]
   }
 }
